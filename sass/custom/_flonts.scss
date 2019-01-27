@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "flont";
+  src: url("flonts/flonts.eot");
+  src: url("flonts/flonts.eot?#iefix") format("embedded-opentype"),
+       url("flonts/flonts.woff") format("woff"),
+       url("flonts/flonts.ttf") format("truetype"),
+       url("flonts/flonts.svg#flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "flont";
+    src: url("flonts/flonts.svg#flaticon") format("svg");
+  }
+}
+
+.flont-facebook:before { content: "\f100"; }
+.flont-twitter:before { content: "\f101"; }
+.flont-instagram:before { content: "\f102"; }
+.flont-linkedin:before { content: "\f103"; }
+.flont-location:before { content: "\f104"; }
+.flont-phone-receiver:before { content: "\f105"; }
+.flont-mail:before { content: "\f106"; }
+.flont-arrow-pointing-to-right:before { content: "\f107"; }
+.flont-right-quote:before { content: "\f108"; }
+.flont-left-quote:before { content: "\f109"; }
+.flont-phone:before { content: "\f10a"; }
+.flont-youtube:before { content: "\f10b"; }
+.flont-play-button:before { content: "\f10c"; }
+.flont-pinterest:before { content: "\f10d"; }
+.flont-copyright:before { content: "\f10e"; }
+.flont-newspaper:before { content: "\f10f"; }
+.flont-information:before { content: "\f110"; }
+.flont-support:before { content: "\f111"; }
