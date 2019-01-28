@@ -1,0 +1,18 @@
+// Buttons 
+.btn-secondary {
+  color: black;
+  background-color: #fff;
+  border-color: #6c757d;
+  font-size:100;
+}
+
+a { 
+  &.button { 
+    &.cta { 
+      padding:.5rem 1rem;
+      border-radius: .25rem;
+      text-decoration: none;
+      transition: color 0.2s linear;
+    }
+  }
+}

@@ -29,7 +29,7 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-$light-color: #fff;
+
 
 $linear-gradient: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 $linear-gradient-light: linear-gradient(to right, #30CFD0 0%, #330867 100%);
@@ -37,14 +37,5 @@ $linear-gradient-light: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 $box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 
 $navigation-padding: 1rem;
-$nav-bg-color: $light-color;
-$hover-color: $gray-600;
-$hover-color-dark: $gray-200;
-$button-hover: $hover-color;
-$button-color: $gray-700;
-$anchor-color: $gray-700;
-
-$highlight: red;
-
 
 $flonts : "[class^="flont-"]::before,[class*=" flont-"]::before,[class^="flont-"]::after,[class*=" flont-"]::after"

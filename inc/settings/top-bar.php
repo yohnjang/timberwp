@@ -27,6 +27,4 @@ $wp_customize->add_section( 'sparkle_top_bar_section', array(
 				)
 			) 
 		);
-
-
 ?>

@@ -1,0 +1,11 @@
+#featured .featured_image, #news .featured_image, #featured_glider .featured_image, #news_glider .featured_image, #testimonials_glider_wrapper .testimonials_image, #testimonials .testimonials_image { display: none;}
+
+#static_hero { display:flex; align-content: center; align-items: center; justify-content: center;}
+#static_hero .content .text {position: relative;z-index: 101;bottom: 0;padding: 0;}
+#static_hero .content { height: auto;}
+
+#static_hero:before { background:'. $super_dark_bg_blue .';background: linear-gradient(90deg, '. $super_dark_bg_blue .' 0%, '. $super_dark_bg_blue .' 100%, transparent 100%);opacity:1;}
+
+@media only screen and (min-width:768px){ #static_hero:before {background: '. $super_dark_bg_blue .';background: linear-gradient(90deg, '. $super_dark_bg_blue .' 0%, '. $super_dark_bg_blue .' 100%, transparent 100%);opacity:1;}}
+
+@media only screen and (min-width:1024px){ #static_hero:before { background: '. $super_dark_bg_blue .';background: linear-gradient(90deg, '. $super_dark_bg_blue .' 0%, '. $super_dark_bg_blue .' 100%, transparent 100%);opacity:1;}}

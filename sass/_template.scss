@@ -180,24 +180,7 @@ object {
 }
 
 
-// Buttons 
-.btn-secondary {
-  color: black;
-  background-color: #fff;
-  border-color: #6c757d;
-  font-size:100;
-}
 
-a { 
-  &.button { 
-    &.cta { 
-      padding:.5rem 1rem;
-      border-radius: .25rem;
-      text-decoration: none;
-      transition: color 0.2s linear;
-    }
-  }
-}
 
 // Pagination
 ul.page-numbers,
@@ -206,27 +189,18 @@ ul.pagination {
   padding-left: 0;
   list-style: none;
   font-size:.75rem;
-  margin:1rem 0;
+  margin:1rem auto;
 
   li a,
   li span {
     padding: .6rem .9rem;
     display:block;
     text-decoration: none; 
-    border-top:1px solid #dee2e6;
-    border-bottom:1px solid #dee2e6;
-    border-right:1px solid #dee2e6;
-
   }
 
   li:first-child span.current,
   li:last-child span.current {
     padding: .6rem .9rem;
-  }
-
-  li span.current {
-    background-color: #fff;
-    color: #111;
   }
 
   li:first-child span.current,
@@ -237,7 +211,6 @@ ul.pagination {
 
   li:first-child span,
   li:first-child a {
-    border-left:1px solid #dee2e6;
     border-bottom-left-radius: .25rem;
     border-top-left-radius: .25rem;
   }
@@ -246,16 +219,10 @@ ul.pagination {
   li:last-child a {
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
-    border-right:1px solid #dee2e6;
   }
 
-  li:first-child span.current, 
-  li:last-child span.current {
-  border-color: #999;
-  }
 
   li:last-child span.current { 
-    border-left: 1px solid #999;
     margin-left:-1px;
   }
 
@@ -264,9 +231,6 @@ ul.pagination {
 // Blog Page Wrapper
 #index-wrapper { 
 
-  img { 
-    box-shadow: 0 1px 2px rgba(0,0,0,0.35);
-  }
 
   padding-top: 1rem;
 
@@ -278,9 +242,7 @@ ul.pagination {
     
     article.type-post { 
 
-      border-top:1px solid #eee;
       padding: 2rem 0;
-
 
       .entry-meta { 
         font-size:.75rem;
@@ -393,6 +355,8 @@ nav#primary
   padding-right: 0;
 }
 
+
+
 @media only screen and (min-width:768px) { 
 
   .container { 
@@ -450,7 +414,7 @@ nav#primary
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
 
   .container { padding: 0;}
   
@@ -468,7 +432,6 @@ nav#primary
     
     .site-main article.type-post {
     margin-bottom: 1rem;
-    box-shadow: 0 10px 45px -9px rgba(0,0,0,.1);
     border-radius:.25rem;
     padding:2rem 0;
 

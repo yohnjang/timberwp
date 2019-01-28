@@ -89,6 +89,7 @@ class StarterSite extends Timber\Site {
 		$context['notes'] = 'These values are available everytime you call Timber::get_context();';
 		$context['menu'] = new Timber\Menu();
 		$context['site'] = $this;
+		$context['theme_mods'] = get_theme_mods();
 		return $context;
 	}
 

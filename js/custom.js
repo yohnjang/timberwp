@@ -14,6 +14,6 @@ window.onload = function() {
   console.log('hello');
   let el = document.querySelector('.year');
   el.innerHTML = currentYear;
-}
 
-document.getElementById('copyright_date').innerHTML = '<a href="https://www.johnyang.co">WordPress Design &amp; Development by J.Y.</a>';
+  document.getElementById('copyright_date').innerHTML = '<a href="https://www.johnyang.co">WordPress Design &amp; Development by J.Y.</a>';
+}

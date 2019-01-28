@@ -27,14 +27,14 @@ gulp.task('compress', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['js/**/*.js','sass/**/*.scss','templates/**/*.php'], ['compress','build']);
-  browserSync.init(["js/*.js","sass/**/*.scss","./**/*.php"], {
+  gulp.watch(['js/**/*.js','sass/**/*.scss','templates/**/*.twig','./*.php'], ['compress','build']);
+  browserSync.init(["js/*.js","sass/**/*.scss","./**/*.php", "templates/**/*.twig"], {
     proxy: "http://localhost:8888/timber"
   });
 });
 
 gulp.task('browser-sync', function() {  
-  browserSync.init(["css/*.css", "js/*.js", "./*.php"], {
+  browserSync.init(["css/*.css", "js/*.js", "./*.php", "templates/**/*.twig"], {
     proxy: "http://localhost:8888/timber"
   });
 });
