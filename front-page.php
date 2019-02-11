@@ -1,6 +1,6 @@
 <?php
 /**
- * This is the page template for displaying your templates/sparkle
+ * This is the page template for displaying your custom
  *
  *
  * @package sparkle
@@ -25,6 +25,6 @@ get_header();
  get_template_part( 'templates/sparkle/consultation' ); 
 
  get_template_part( 'templates/sparkle/news' ); 
-
+	
  get_footer(); 
 

@@ -1,7 +1,10 @@
 #featured { 
 
-  .main_headline,
-  .main_exerpt { 
+  .main_headline .display-4 { 
+    font-weight:900;
+  }
+
+  .main_headline{ 
     margin: 3rem 1rem;
   }
 

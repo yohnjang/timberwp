@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:992px){
 
   #cta { 
     .container {
@@ -36,6 +36,10 @@
       align-content: center;
       justify-content: space-between;
       align-items: center;
+
+      .display-4 { 
+        max-width:65%;
+      }
     }
 
   }

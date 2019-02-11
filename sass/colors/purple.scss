@@ -1,0 +1,42 @@
+
+
+$light_color:#F8F7FF;
+$medium_color:#7D7FFF;
+$dark_color:#210C65;
+$super_dark_color:#0E0541;
+
+$light_bg_purple:$light_color;
+$medium_bg_purple:$medium_color;
+$dark_bg_purple:$dark_color;
+$super_dark_bg_purple:$super_dark_color;
+$light_text_purple:$light_color;
+$medium_text_purple:$medium_color;
+$dark_text_purple:$dark_color;
+$super_dark_text_purple:$super_dark_color;
+$light_border_color_purple:$light_color;
+$dark_border_color_purple:$dark_color;
+
+#testimonials::before, #testimonials_glider::before{ color:  $medium_color }
+
+#static_hero { border-top: 1px solid  $light_color;border-bottom: 1px solid  $light_color }
+
+.light-bg,#consultation, body,#primaryMenuWrapper.show,.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after, #cta a.cta.button:hover , #newsletter_section button:hover, #footer_newsletter button:hover{ background-color:  $light_bg_purple }
+
+.medium-bg,#cta, footer#main #footer_newsletter input[type="submit"],#newsletter_section input[type="submit"],.btn-secondary:hover, #newsletter_section button, #footer_newsletter button { background:  $medium_bg_purple }
+
+.dark-bg,#consultation input[type="submit"],#consultation_form button,#footer_copyright, #navbar-wrapper,#primaryMenuWrapper.show,.btn-secondary { background-color:  $dark_bg_purple }
+
+.super-dark-bg,#topbar,#cta a, #newsletter_section,footer#main { background-color:  $super_dark_bg_purple }
+
+.light-text, #newsletter_section, #consultation_form button, footer#main p, #footer_copyright, #footer_copyright a, #topbar a,#topbar, #cta,#cta a, footer#main a,footer#main, footer#main #footer_newsletter input[type="submit"], #newsletter_section h2,#newsletter_section input[type="submit"], #static_hero #typed, #static_hero h1, #static_hero .display-2,#newsletter_form_text_logo a, #static_hero p.heading , #newsletter_section .display-3, .cookiebanner a, nav#primary .display-3 a,nav#primary li a, #newsletter_section .newsletter_code p, #newsletter_section button, #footer_newsletter button, #newsletter_section p.excerpt   { color:  $light_text_purple }
+
+.medium-text, nav#primary ul#primary_menu li:hover a, #topbar .social a:hover, #footer_contact .social a:hover,ul#footer_menu li a:hover , nav#primary #logo .display-3 a:hover, #footer_text_logo a:hover, #footer_copyright a:hover,#newsletter_form_text_logo a:hover   { color:  $medium_text_purple }
+
+.dark-text, .entry-title a, #consultation .display-3 a, footer#main #footer_newsletter p, #cta a.cta.button:hover , #newsletter_section button:hover, #footer_newsletter button:hover{ color:  $dark_text_purple}
+
+.super-dark-text, #consultation .display-4.email,#consultation_form label,#footer_newsletter,.display-1,.display-2,.display-3,.display-4,.display-5,.display-6,h1,h2,h3,h4,h5,p,  #consultation .display-2.phone, footer#main #footer_newsletter .display-5,.entry-content .btn-secondary,.btn-secondary{ color:  $super_dark_text_purple }
+
+.light-border-color{ border-color:  $light_border_color_purple }
+
+.dark-border-color,.btn-secondary,#consultation input[type="email"],#consultation input[type="text"],#consultation textarea, footer#main #footer_newsletter input[type="text"], footer#main #footer_newsletter input[type="email"], footer#main #footer_newsletter textarea , #cta a.cta.button:hover , #newsletter_section button:hover, #footer_newsletter button:hover{ border-color:  $dark_border_color_purple }
+

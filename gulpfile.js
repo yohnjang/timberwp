@@ -40,7 +40,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('build',function() {
-  gulp.src('./sass/*.scss')
+  gulp.src(['./sass/*.scss','./sass/colors/*.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compact', precision: 10})
       .on('error', sass.logError)

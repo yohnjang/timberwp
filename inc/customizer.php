@@ -49,7 +49,7 @@ if ( ! function_exists( 'sparkle_theme_customize_register' ) ) {
 			'/footer.php',
 			'/contact.php',
 			'/social-media.php',
-			//'/theme-color.php',
+			'/theme-color.php',
 			'/typography.php',
 			'/custom-content-switch.php',
 			'/blog.php',
@@ -89,8 +89,7 @@ function sparkle_customize_register( $wp_customize ) {
 }
 add_action( 'customize_register', 'sparkle_customize_register', 50 );
 
-/*
-function customizer_css(){
+function add_css_styles(){
 	$sparkle_css_styles = array(
 		'/css-styles.php'
 	);
@@ -102,6 +101,4 @@ function customizer_css(){
 		}
 		require_once $filepath;
 	}}
-add_action( 'wp_head', 'customizer_css');
-
-*/
+add_action( 'wp_head', 'add_css_styles');

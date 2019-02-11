@@ -5,11 +5,19 @@
       <div class="col-12 col-md-6 headline">
     
       <?php 
-        if( get_theme_mod('sparkle_newsletter_headline' != null)){
-                echo get_theme_mod('sparkle_newsletter_headline');
+
+        if(get_theme_mod('sparkle_newsletter_headline') != null){
+          echo '<div class="display-3 heavy">' . get_theme_mod('sparkle_newsletter_headline') . '</div>';
         }
-        else { 
-          echo '<div class="display-3">Never miss a thing. Sign up for our newsletter.</div><strong>*indicated required</strong>';
+        else {
+          echo '<div class="display-3 heavy">Want to get insider access on <i>primary benefit</i> for your <i>primary audience</i> business?</div>';
+        }
+      
+        if(get_theme_mod('sparkle_newsletter_excerpt') != null){
+          echo '<p class="excerpt">' . get_theme_mod('sparkle_newsletter_excerpt') . '</p>';
+        }
+        else {
+          echo '<p class="excerpt">As an expert on serving <i>primary audience</i>, I run an exclusive newsletter for business owners in the <i>primary audience</i> space, where I share strategies, advice, and examples on how you can achieve <i>primary benefit</i> for your <i>primary audience</i> business.</p>';
         }
       ?>
       <?php 
@@ -39,7 +47,9 @@
       </div><!-- .headline -->
       <div class="col-12 col-md-6 newsletter_code">
         <?php if( get_theme_mod('sparkle_newsletter_code') != null){
-        echo get_theme_mod('sparkle_newsletter_code'); 
+
+          echo do_shortcode(get_theme_mod('sparkle_newsletter_code'));
+          //echo '<strong>*indicated required</strong>'; 
         }
         else {
           echo '<div class="highlight">please enter your newsletter code first</div>';

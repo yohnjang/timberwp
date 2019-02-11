@@ -1,5 +1,5 @@
 <?php if( get_theme_mod('sparkle_featured_section_switch') == null  ||  get_theme_mod('sparkle_featured_section_switch') == 2)  {
-	get_template_part( 'templates/sparkle/featured-glider' );
+	get_template_part( 'tempaltes/sparkle/featured-glider' );
 }
 
 elseif( get_theme_mod('sparkle_featured_section_switch') == 1 ){
