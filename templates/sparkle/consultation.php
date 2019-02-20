@@ -20,15 +20,15 @@
 			}
 
 			if(get_theme_mod('sparkle_consultation_headline') != null){
-				echo '<div class="display-2">';
+				echo '<div class="display-3">';
 				echo get_theme_mod('sparkle_consultation_headline');
 				echo '</div><!-- headline -->';
 			}
-			else{ echo '<div class="display-2 heavy dark-text">Are you in the <i>primary audience</i> industry and looking to achieve <i>primary benefit</i>?</div>';}
+			else{ echo '<div class="headline display-3 dark-text">Are you in the primary audience industry and looking to achieve primary benefit?</div>';}
 
 
 			if(get_theme_mod('sparkle_consultation_excerpt') != null){
-				echo '<div class="display-2 phone d-none d-md-block"><i class="flaticon-phone"></i>';
+				echo '<div class="display-3 phone d-none d-md-block"><i class="flaticon-phone">';
 				echo get_theme_mod('sparkle_consultation_excerpt');
 				echo '</div>';
 			}
@@ -36,16 +36,16 @@
 echo '<p>
 				After your free consultation, you will…
 				<ul>
-    <li><i>Benefit of what they will learn from a consultation from you #1</i></li>
-    <li><i>Benefit of what they will learn from a consultation from you #2</i></li>
-		<li><i>Benefit of what they will learn from a consultation from you #3</i></li>
+    <li>Benefit of what they will learn from a consultation from you #1</li>
+    <li>Benefit of what they will learn from a consultation from you #2</li>
+		<li>Benefit of what they will learn from a consultation from you #3</li>
 		</ul></p>';
 
 
 			}
 /*
 			if(get_theme_mod('sparkle_email') != null){
-				echo '<div class="display-4 email d-none d-md-block"><i class="flaticon-at"></i>';
+				echo '<div class="display-4 email d-none d-md-block"><i class="flaticon-at">';
 				echo get_theme_mod('sparkle_email');
 				echo '</div>';
 			}

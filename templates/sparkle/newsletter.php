@@ -10,14 +10,14 @@
           echo '<div class="display-3 heavy">' . get_theme_mod('sparkle_newsletter_headline') . '</div>';
         }
         else {
-          echo '<div class="display-3 heavy">Want to get insider access on <i>primary benefit</i> for your <i>primary audience</i> business?</div>';
+          echo '<div class="display-3 heavy">Want to get insider access on primary benefit for your primary audience business?</div>';
         }
       
         if(get_theme_mod('sparkle_newsletter_excerpt') != null){
           echo '<p class="excerpt">' . get_theme_mod('sparkle_newsletter_excerpt') . '</p>';
         }
         else {
-          echo '<p class="excerpt">As an expert on serving <i>primary audience</i>, I run an exclusive newsletter for business owners in the <i>primary audience</i> space, where I share strategies, advice, and examples on how you can achieve <i>primary benefit</i> for your <i>primary audience</i> business.</p>';
+          echo '<p class="excerpt">As an expert on serving primary audience, I run an exclusive newsletter for business owners in the primary audience space, where I share strategies, advice, and examples on how you can achieve primary benefit for your primary audience business.</p>';
         }
       ?>
       <?php 

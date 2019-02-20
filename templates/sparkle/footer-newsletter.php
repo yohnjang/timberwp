@@ -1,10 +1,10 @@
 <?php 
   echo '<div id="footer_newsletter">';
   if(get_theme_mod('sparkle_newsletter_headline') != null){
-    echo '<div class="display-5 heavy">' . get_theme_mod('sparkle_newsletter_headline') . '</div>';
+    echo '<div class="display-5">' . get_theme_mod('sparkle_newsletter_headline') . '</div>';
   }
   else {
-    echo '<div class="display-5 heavy">Want to get insider access on <i>primary benefit</i> for your <i>primary audience</i> business?</div>';
+    echo '<div class="display-5">Want to get insider access on primary benefit for your primary audience business?</div>';
   }
 
   if(get_theme_mod('sparkle_newsletter_excerpt') != null){

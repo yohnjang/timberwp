@@ -26,7 +26,7 @@
                         }
                         else {
                             echo '<h1 class="display-3 heavy">';
-                            echo 'I help <i>primary audience</i> achieve <i>primary benefit</i> by <i>doing this</i> better than any of my competitors.';
+                            echo 'I help primary audience achieve primary benefit by doing this better than any of my competitors.';
                             echo '</h1>';
                         }
                     }
@@ -49,7 +49,7 @@
 <?php if(get_theme_mod('sparkle_hero_headline') == null ){ ?>
     <script>
     var optionss = {
-        strings: ["I help <i>primary audience</i> achieve <i>primary benefit</i> by <i>doing this</i> better than any of my competitors."],
+        strings: ["I help primary audience achieve primary benefit by doing this better than any of my competitors."],
         typeSpeed: 70,
         showCursor: false
     }

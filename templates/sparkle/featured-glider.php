@@ -7,7 +7,7 @@ echo '<div class="main_headline mb-5">
 	if( get_theme_mod('sparkle_featured_headline_main') != null ){
 		echo get_theme_mod('sparkle_featured_headline_main');
 	}
-	else { echo '<i>Primary Audience</i> Insights: Learn to achieve <i>Primary Benefit</i>';} 
+	else { echo 'Primary Audience Insights: Learn to achieve Primary Benefit';} 
 echo '</div><!-- display-2 -->
 <p class="headline">';
 	if( get_theme_mod('sparkle_featured_excerpt_main') != null ){
@@ -44,7 +44,7 @@ echo '</p>
 					echo '</div>';
 				}
 				else{
-					echo '<div class="featured_headline display-4">How To Achieve <i>Primary Benefit</i> Without <i>Pain Point</i></div>';
+					echo '<div class="featured_headline display-4">How To Achieve Primary Benefit Without Pain Point</div>';
 				}
 
 				if(get_theme_mod('sparkle_featured_excerpt_1') != null){
@@ -86,7 +86,7 @@ echo '</p>
 					echo '</div>';
 				}
 				else{
-					echo '<div class="featured_headline display-4">5 Reasons Your <i>Primary Audience</i> Business May Not Be <i>Primary Benefit</i></div>';
+					echo '<div class="featured_headline display-4">5 Reasons Your Primary Audience Business May Not Be Primary Benefit</div>';
 				}
 
 				if(get_theme_mod('sparkle_featured_excerpt_2') != null){
@@ -127,7 +127,7 @@ echo '</p>
 			echo '</div>';
 		}
 		else{
-			echo '<div class="featured_headline display-4">Is Your <i>Primary Audience</i> Business Making This Critical Mistake?</div>';
+			echo '<div class="featured_headline display-4">Is Your Primary Audience Business Making This Critical Mistake?</div>';
 		}
 
 		if(get_theme_mod('sparkle_featured_excerpt_3') != null){
@@ -168,7 +168,7 @@ if(get_theme_mod('sparkle_featured_headline_4') != null){
 	echo '</div>';
 }
 else{
-	echo '<div class="featured_headline display-4">10 Ways that <i>primary audience</i> can solve <i>common problem</i></div>';
+	echo '<div class="featured_headline display-4">10 Ways that primary audience can solve common problem</div>';
 }
 
 if(get_theme_mod('sparkle_featured_excerpt_4') != null){

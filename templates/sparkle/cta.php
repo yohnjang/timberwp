@@ -7,7 +7,7 @@ echo '<div id="cta">
 		if(get_theme_mod('sparkle_cta_headline') != null){ 
 			echo get_theme_mod('sparkle_cta_headline');
 		 }else { 
-			 echo 'Learn more about <i>primary benefit</i> for your business with a free 30-minute confidential consultation.';
+			 echo 'Learn more about primary benefit for your business with a free 30-minute confidential consultation.';
 		 } 
 		echo '</div><!-- headline -->
 		<a href="';

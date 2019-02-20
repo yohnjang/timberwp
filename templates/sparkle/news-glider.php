@@ -1,11 +1,11 @@
 <?php 
 
 echo '<div id="news_glider_wrapper"><div class="main_headline">
-			<div class="display-2">';
+			<div class="display-3">';
 				 if( get_theme_mod('sparkle_news_headline_main') != null ){
 					echo get_theme_mod('sparkle_news_headline_main');
 				}
-				else echo '<i>Primary Audience</i> Resources: Insights on <i>primary benefit</i>';
+				else echo 'Primary Audience Resources: Insights on primary benefit';
 			echo '</div>
 			<p class="headline">';
 			if( get_theme_mod('sparkle_news_excerpt_main') != null ){
@@ -23,19 +23,16 @@ echo '<div id="news_glider">';
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">';
         
-			 query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); 
+			 query_posts('showposts=10'); if (have_posts()) : while (have_posts()) : the_post(); 
 				echo '<li class="glide__slide grabbable">';
 				if(has_post_thumbnail()){
 					echo '<div class="featured_image" style="background-image:url(';
 					echo get_the_post_thumbnail_url( $post->ID, 'medium' ); 
 					echo ');"></div>';
 				}
-				else{
+				else{}
 
-				} 
-
-
-					the_title( sprintf( '<div class="entry-title display-3"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),'</a></div>' ); 
+					the_title( sprintf( '<div class="entry-title display-4"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),'</a></div>' ); 
 				echo '<div class="excerpt">';
 				the_excerpt();
 				echo '</div>

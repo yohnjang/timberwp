@@ -14,16 +14,14 @@
   font-family: flont;
     }
 
-
-
 #testimonials, #testimonials_glider_wrapper { 
 
   position: relative;
   overflow:hidden;
-  padding: 3rem 0;
+  padding: 12rem 0 6rem;
 
   .testimonials_headline {
-    &.display-3 { font-size: 1.2rem;}
+    &.display-3 { font-size: 1.2rem; font-weight:900;margin:1rem 0;}
   }
 
   #testimonials_glider { 
@@ -37,8 +35,6 @@
       position:relative;
       z-index:1111;
     }
-
-    
   }
   .main_headline { 
     text-align: center;

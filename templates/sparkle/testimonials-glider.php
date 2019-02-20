@@ -1,12 +1,12 @@
 <?php 
 echo '<div id="testimonials_glider_wrapper">
 		<div class="main_headline">
-			<div class="display-2">';
+			<div class="display-3">';
 				if( get_theme_mod('sparkle_testimonials_headline_main') != null ){
 					echo get_theme_mod('sparkle_testimonials_headline_main');
 				}
-				else { echo 'Our Testimonials';} 
-			echo '</div><!-- display-2 -->
+				else {} 
+			echo '</div><!-- display-3 -->
 			<p class="headline">';
 				if( get_theme_mod('sparkle_testimonials_excerpt_main') != null ){
 					echo get_theme_mod('sparkle_testimonials_excerpt_main');
@@ -48,7 +48,7 @@ echo '<div id="testimonials_glider_wrapper">
 					echo '</div>';
 				}
 				else{
-					echo '<div class="testimonials_headline display-3"><i>Your Name</i> helped us achieve <i>primary benefit</i>.</div>';
+					echo '<div class="testimonials_headline display-3">Your Name helped us achieve primary benefit.</div>';
 				}
 
 				if(get_theme_mod('sparkle_testimonials_excerpt_1') != null){

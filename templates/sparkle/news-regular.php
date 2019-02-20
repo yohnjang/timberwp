@@ -3,11 +3,11 @@
 echo '<div id="news">
 <div class="container">
 <div class="main_headline">
-			<div class="display-2">';
+			<div class="display-3">';
 				 if( get_theme_mod('sparkle_news_headline_main') != null ){
 					echo get_theme_mod('sparkle_news_headline_main');
 				}
-				else echo '<i>Primary Audience</i> Resources: Insights on <i>primary benefit</i>';
+				else echo 'Primary Audience Resources: Insights on primary benefit';
 			echo '</div>
 			<p class="headline">';
 			if( get_theme_mod('sparkle_news_excerpt_main') != null ){

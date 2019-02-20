@@ -173,3 +173,8 @@ function remove_gutenberg_styles() {
 
 add_action( 'wp_enqueue_scripts', 'remove_gutenberg_styles', 100 );
 
+function custom_excerpt_length( $length ) {
+	return 50;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+

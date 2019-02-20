@@ -7,9 +7,11 @@
    .main_headline { 
      padding: 1rem;
 
+
      p.headline { 
        margin-top:1rem;
     }
+
    }
 
    img { width:100%;
@@ -43,14 +45,16 @@
 
   .main_headline{
     text-align: center;
+
+    .display-3 { 
+      font-weight:900;
+      margin-bottom:1rem;
+    }
   }
 
   .entry-title { 
     margin:1rem 0;
   }
-}
-
-@media only screen and (min-width:768px){
 }
 
 @media only screen and (min-width:1024px){
@@ -70,7 +74,7 @@
     .main_headline { 
       text-align:center;
       max-width:640px;
-      margin: 0 auto 2rem;
+      margin: 0 auto 6rem;
     }
 
     .entry-title { 
